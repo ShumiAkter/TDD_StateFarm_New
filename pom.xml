@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>tdd.healthfirst</groupId>
-	<artifactId>healthfirst.dd</artifactId>
+	<groupId>tdd.cvs</groupId>
+	<artifactId>cvs.dd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Healthfirst_TDD</name>
-	<description>Healthfirst TDD Framework</description>
+	<name>CVS_TDD</name>
+	<description>CVS TDD Framework</description>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -17,7 +17,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.7.1</version>
-			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
