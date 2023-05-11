@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import object.HomePage;
+import object.PersonalPricePlan;
+import object.Vehicles;
 import utils.Browser;
 import utils.Configuration;
 import utils.Key_Constant;
@@ -22,7 +24,8 @@ public class TestBase {
 
 	protected WebDriver driver;
 	protected HomePage homePage;
-	
+	protected PersonalPricePlan personalPricePlan;
+	protected Vehicles vehicles;
 	Configuration configuration = new Configuration();
 
 	@BeforeMethod
@@ -31,12 +34,16 @@ public class TestBase {
 		initiatDriver(browserName);
 		initObject();
 		driver.manage().window().maximize();
-		int pageLoadTime  = configuration.getPropN(getValue(pageLoad));
+		int pageLoadTime = configuration.getPropN(getValue(pageLoad));
 		int implicitLoadTime = configuration.getPropN(getValue(implicitLoad));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20)); // It will take time to load to open Url Page.														
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // It will take time load to find the webelement ( by it self)																		
-		String url =configuration.getProp("url");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadTime)); // It will take time to load to
+																						// open Url Page.
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitLoadTime)); // It will take time load to
+																							// find the webelement ( by
+																							// it self)
+		String url = configuration.getProp("url");
 		driver.get(url);
+
 	}
 
 	public void initiatDriver(String browser) {
@@ -62,23 +69,25 @@ public class TestBase {
 			driver = new ChromeDriver();
 			break;
 		}
-		
+
 	}
+
 	public void initObject() {
 		homePage = new HomePage(driver);
+		personalPricePlan = new PersonalPricePlan(driver);
+		vehicles = new Vehicles(driver);
 	}
-		@AfterMethod
-		public void closingBrower() {
-			driver.quit();
-		
+
+	@AfterMethod
+	public void closingBrower() {
+		driver.quit();
 	}
-		public String getValue(Key_Constant key_Constant){
-			return key_Constant.name();
-			
-		}
-		public String getbrowser(Browser browser_Constant){
-			return browser.name();
-			
-		
-		}
+
+	public String getValue(Key_Constant key_Constant) {
+		return key_Constant.name();
+	}
+
+	public String getbrowser(Browser browser_Constant) {
+		return browser.name();
+	}
 }
