@@ -1,6 +1,6 @@
 package utils;
 
 public enum Key_Constant {
-	browser, pageLoad, implicitLoad
+	browser,  pageLoad,  implicitLoad,  explicitWait,  url
 
 }

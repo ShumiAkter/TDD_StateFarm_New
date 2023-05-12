@@ -1,7 +1,6 @@
 package common;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.logging.Logs;
 import org.openqa.selenium.support.ui.Select;
 import reporting.Log;
 

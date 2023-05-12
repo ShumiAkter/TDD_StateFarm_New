@@ -11,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import object.Insurance;
 import object.HomePage;
 import object.PersonalPricePlan;
 import object.Vehicles;
@@ -26,6 +27,10 @@ public class TestBase {
 	protected HomePage homePage;
 	protected PersonalPricePlan personalPricePlan;
 	protected Vehicles vehicles;
+	protected Insurance insurance;
+	
+	
+	
 	Configuration configuration = new Configuration();
 
 	@BeforeMethod
@@ -72,10 +77,12 @@ public class TestBase {
 
 	}
 
-	public void initObject() {
+	protected void initObject() {
 		homePage = new HomePage(driver);
 		personalPricePlan = new PersonalPricePlan(driver);
 		vehicles = new Vehicles(driver);
+		insurance = new Insurance(driver);
+		
 	}
 
 	@AfterMethod
