@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import net.bytebuddy.asm.MemberSubstitution.FieldValue;
+import static common.CommonWaits.*;
 import static common.CommonAction.*;
 
 public class Vehicles {
@@ -17,6 +17,7 @@ public class Vehicles {
 	public Vehicles(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		init(driver);
 
 	}
 
@@ -55,10 +56,12 @@ public class Vehicles {
 	}
 
 	public void validationTitle(String expected) {
+		waitUntilVisible(title);
 		assertEquals(getText(title), expected);
 	}
 
 	public void clickaddAVehicleBtn() {
+		waitUntilClickable(addAVehicle);
 		click(addAVehicle);
 
 	}
@@ -72,6 +75,7 @@ public class Vehicles {
 	}
 
 	public void validationVinTitle(String expected) {
+		waitUntilVisible(vinTitl);
 		assertEquals(getInnerHTML(vinTitl), expected);
 
 	}
@@ -81,15 +85,19 @@ public class Vehicles {
 	}
 
 	public void selectmodel(String modelvalue) {
+		waitUntilVisible(model);
 		dropdown(model, modelvalue);
 	}
 
 	public void selectbodyStyle(String bodyStylevalue) {
+		waitUntilVisible(bodyStyle);
 		dropdown(bodyStyle, bodyStylevalue);
 	}
 
 	public void clickAddButton(WebDriver driver) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		waitUntilClickable(addButton);
 		js.executeScript("arguments[0].click()", addButton);
+
 	}
 }

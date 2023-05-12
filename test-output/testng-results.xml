@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6ed15129028cd3df1d88c5877c67d999)] -> xpath: //button[@data-for="insurance"]] Has been clicked<b>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-05-11T01:14:30 EDT" name="Default suite" finished-at="2023-05-11T01:15:18 EDT" duration-ms="47805">
+  <suite started-at="2023-05-12T13:17:25 EDT" name="Default suite" finished-at="2023-05-12T13:17:36 EDT" duration-ms="11103">
     <groups>
     </groups>
-    <test started-at="2023-05-11T01:14:30 EDT" name="Default test" finished-at="2023-05-11T01:15:18 EDT" duration-ms="47805">
-      <class name="auto.AutoTest">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:auto.AutoTest@4659191b]" started-at="2023-05-11T01:14:30 EDT" name="beforeEachTest" finished-at="2023-05-11T01:14:43 EDT" duration-ms="13293" status="PASS">
+    <test started-at="2023-05-12T13:17:25 EDT" name="Default test" finished-at="2023-05-12T13:17:36 EDT" duration-ms="11103">
+      <class name="AllTest.BankingTest">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-12T13:17:25 EDT" name="beforeEachTest" finished-at="2023-05-12T13:17:35 EDT" duration-ms="9393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="getA_Quote()[pri:0, instance:auto.AutoTest@4659191b]" started-at="2023-05-11T01:14:43 EDT" name="getA_Quote" finished-at="2023-05-11T01:15:17 EDT" duration-ms="33915" status="PASS">
+        <test-method signature="insuranceTest()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-12T13:17:35 EDT" name="insuranceTest" finished-at="2023-05-12T13:17:36 EDT" duration-ms="1262" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6ed15129028cd3df1d88c5877c67d999)] -> xpath: //button[@data-for="insurance"]] Has been clicked<b>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- getA_Quote -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:auto.AutoTest@4659191b]" started-at="2023-05-11T01:15:17 EDT" name="closingBrower" finished-at="2023-05-11T01:15:18 EDT" duration-ms="491" status="PASS">
+        </test-method> <!-- insuranceTest -->
+        <test-method is-config="true" signature="closingBrower()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-12T13:17:36 EDT" name="closingBrower" finished-at="2023-05-12T13:17:36 EDT" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrower -->
-      </class> <!-- auto.AutoTest -->
+      </class> <!-- AllTest.BankingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

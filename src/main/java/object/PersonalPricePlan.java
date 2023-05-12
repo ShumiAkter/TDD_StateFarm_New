@@ -5,18 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import com.fasterxml.jackson.annotation.JacksonInject.Value;
-
-//import dev.failsafe.internal.util.Assert;
-
+import  static common.CommonWaits.*;
 import static common.CommonAction.*;
 
 public class PersonalPricePlan {
 
 	public PersonalPricePlan(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-
+		init(driver);
 	}
 
 	@FindBy(xpath = "//h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']")
@@ -84,10 +80,12 @@ public class PersonalPricePlan {
 
 	public void clickCheckBox(WebDriver driver) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		waitUntilClickable(checkbox);
 		js.executeScript("arguments[0].click()", checkbox);
 	}
 
 	public void clickContinueButon() {
+		waitUntilClickable(continueButton);
 		click(continueButton);
 	}
 }
