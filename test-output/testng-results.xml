@@ -2,30 +2,150 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6ed15129028cd3df1d88c5877c67d999)] -> xpath: //button[@data-for="insurance"]] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> name: productName] Has been clicked<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: first_name]<<< value inserted: Shumi<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: middle_name]<<< value inserted: R<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: last_name]<<< value inserted: Akter<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: suffix_name]<<<< Select : Jr<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: street2]<<< value inserted: 2nd<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: btnContinue] Has been clicked<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: addVehicleButton] Has been clicked<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //*[text()='Please provide make, model and body style, or Vehicle Identification Number (VIN).']] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-12T13:17:25 EDT" name="Default suite" finished-at="2023-05-12T13:17:36 EDT" duration-ms="11103">
+  <suite started-at="2023-05-13T01:01:18 EDT" name="Default suite" finished-at="2023-05-13T01:01:47 EDT" duration-ms="29227">
     <groups>
     </groups>
-    <test started-at="2023-05-12T13:17:25 EDT" name="Default test" finished-at="2023-05-12T13:17:36 EDT" duration-ms="11103">
-      <class name="AllTest.BankingTest">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-12T13:17:25 EDT" name="beforeEachTest" finished-at="2023-05-12T13:17:35 EDT" duration-ms="9393" status="PASS">
+    <test started-at="2023-05-13T01:01:18 EDT" name="Default test" finished-at="2023-05-13T01:01:47 EDT" duration-ms="29227">
+      <class name="AllTest.AutoTest">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:AllTest.AutoTest@2dc54ad4]" started-at="2023-05-13T01:01:18 EDT" name="beforeEachTest" finished-at="2023-05-13T01:01:26 EDT" duration-ms="7926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="insuranceTest()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-12T13:17:35 EDT" name="insuranceTest" finished-at="2023-05-12T13:17:36 EDT" duration-ms="1262" status="PASS">
+        <test-method signature="getA_Quote()[pri:0, instance:AllTest.AutoTest@2dc54ad4]" started-at="2023-05-13T01:01:26 EDT" name="getA_Quote" finished-at="2023-05-13T01:01:47 EDT" duration-ms="20834" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6ed15129028cd3df1d88c5877c67d999)] -> xpath: //button[@data-for="insurance"]] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> name: productName] Has been clicked<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: first_name]<<< value inserted: Shumi<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: middle_name]<<< value inserted: R<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: last_name]<<< value inserted: Akter<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: suffix_name]<<<< Select : Jr<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: street2]<<< value inserted: 2nd<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: btnContinue] Has been clicked<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: addVehicleButton] Has been clicked<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //*[text()='Please provide make, model and body style, or Vehicle Identification Number (VIN).']] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- insuranceTest -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-12T13:17:36 EDT" name="closingBrower" finished-at="2023-05-12T13:17:36 EDT" duration-ms="365" status="PASS">
+        </test-method> <!-- getA_Quote -->
+        <test-method is-config="true" signature="closingBrower()[pri:0, instance:AllTest.AutoTest@2dc54ad4]" started-at="2023-05-13T01:01:47 EDT" name="closingBrower" finished-at="2023-05-13T01:01:47 EDT" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrower -->
-      </class> <!-- AllTest.BankingTest -->
+      </class> <!-- AllTest.AutoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

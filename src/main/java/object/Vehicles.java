@@ -1,5 +1,12 @@
 package object;
 
+import static common.CommonAction.click;
+import static common.CommonAction.dropdown;
+import static common.CommonAction.getInnerHTML;
+import static common.CommonAction.getText;
+import static common.CommonWaits.init;
+import static common.CommonWaits.waitUntilClickable;
+import static common.CommonWaits.waitUntilVisible;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -7,8 +14,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import static common.CommonWaits.*;
-import static common.CommonAction.*;
 
 public class Vehicles {
 

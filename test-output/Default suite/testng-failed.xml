@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AllTest.BankingTest">
+      <class name="AllTest.AutoTest">
         <methods>
+          <include name="getA_Quote"/>
           <include name="closingBrower"/>
           <include name="beforeEachTest"/>
-          <include name="bankingTest"/>
         </methods>
-      </class> <!-- AllTest.BankingTest -->
+      </class> <!-- AllTest.AutoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

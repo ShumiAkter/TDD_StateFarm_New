@@ -1,6 +1,7 @@
 package AllTest;
 
 import org.testng.annotations.Test;
+
 import base.TestBase;
 
 public class AutoTest extends TestBase {
@@ -31,8 +32,8 @@ public class AutoTest extends TestBase {
 		vehicles.selectbodyStyle("COMPETITION 2D CPE GAS");
 		vehicles.clickAddButton(driver);
 		System.out.println("................. Auto Test Complete........................");
-		
-		
+
+
 
 	}
 
