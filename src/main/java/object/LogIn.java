@@ -10,11 +10,14 @@ import static common.CommonWaits.*;
 import static common.CommonAction.*;
 
 public class LogIn {
+	
 	WebDriver driver;
 
 	public LogIn(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		
+		
 	}
 	@FindBy(xpath = "//*[@class='-oneX-header-top-menu-btn']")
 	WebElement loginbt;
@@ -56,6 +59,7 @@ public class LogIn {
 		insert(birthday, DOB);
 	}
 	public void insertEmailAddress(String Email) {
+		waitUntilVisible(emailA);
 		insert(emailA, Email);
 	}
 	public void clickContinue() {
