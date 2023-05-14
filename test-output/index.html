@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="AllTest.AutoTest" class="method navigator-link" hash-for-method="getA_Quote">getA_Quote</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllTest.ClaimsTest" class="method navigator-link" hash-for-method="clamimsTest">clamimsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,25 +118,87 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AllTest.AutoTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">AllTest.ClaimsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getA_Quote">
-                  </a> <!-- getA_Quote -->
-                  <span class="method-name">getA_Quote</span>
+                  <a name="clamimsTest">
+                  </a> <!-- clamimsTest -->
+                  <span class="method-name">clamimsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=113.0.5672.92)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.3&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ce229657cba763a9e5adac174424722, clickElement {id=1B9E78E097E1AEBA42EE117E7AD7DE30_element_60}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/qk/bzgkrfp95tq...}, goog:chromeOptions: {debuggerAddress: localhost:54521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54521/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (8ce229657cba763a9e5adac174424722)] -&gt; xpath: //a[text()=&apos;Roadside Assistance&apos;]]
+Session ID: 8ce229657cba763a9e5adac174424722
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at common.CommonAction.click(CommonAction.java:23)
+	at object.Claims.clickRoadside(Claims.java:34)
+	at AllTest.ClaimsTest.clamimsTest(ClaimsTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/qk/bzgkrfp95tq2r6x187fzjhvm0000gn/T/testng-eclipse--645222587/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/qk/bzgkrfp95tq2r6x187fzjhvm0000gn/T/testng-eclipse-1475637008/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +207,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AllTest.AutoTest&quot;/&gt;
+      &lt;class name=&quot;AllTest.ClaimsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -187,14 +249,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getA_Quote')
-data.setCell(0, 2, 'AllTest.AutoTest')
-data.setCell(0, 3, 20834);
+data.setCell(0, 1, 'clamimsTest')
+data.setCell(0, 2, 'AllTest.ClaimsTest')
+data.setCell(0, 3, 21733);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -206,29 +268,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">getA_Quote</span>
+              <span class="reporter-method-name">clamimsTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> name: productName] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: quote-main-zip-btn] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: first_name]<<< value inserted: Shumi<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: middle_name]<<< value inserted: R<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: last_name]<<< value inserted: Akter<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: suffix_name]<<<< Select : Jr<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: street1]<<< value inserted: 7120 sellers Ave<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: street2]<<< value inserted: 2nd<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: date_of_birth]<<< value inserted: 10201978<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: btnContinue] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> id: addVehicleButton] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //*[text()='Please provide make, model and body style, or Vehicle Identification Number (VIN).']] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (77b136b80fa56b851314e1c58921d610)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (8ce229657cba763a9e5adac174424722)] -> xpath: (//span[text()='Claims'])[2]] Has been clicked<b></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,18 +288,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AllTest.AutoTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AllTest.ClaimsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeEachTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">getA_Quote</span>
-                <span class="method-start">7928 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clamimsTest</span>
+                <span class="method-start">12521 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closingBrower</span>
-                <span class="method-start">28770 ms</span>
+                <span class="method-start">34269 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
