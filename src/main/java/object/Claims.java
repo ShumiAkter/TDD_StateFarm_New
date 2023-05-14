@@ -1,5 +1,8 @@
 package object;
 
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,22 +22,45 @@ public class Claims  {
 	@FindBy(xpath = "(//span[text()='Claims'])[2]")
 	WebElement claims;
 	
+	
 	@FindBy(xpath = "//a[text()='Roadside Assistance']")
-	//((//*[@class='-oneX-link--block '])[3]
+	/*//a[text()='Roadside Assistance'] 
+	//((//*[@class='-oneX-link--block '])[3]*/
 	 
 	WebElement rodesideA;
-	@FindBy(xpath = "//a[@class='-oneX-btn-primary__anchor']")
-	WebElement assistance;
 	
+	
+	@FindBy(xpath = "(//a[text()='Get Roadside Assistance'])[2]")
+	WebElement assistance;
+			//a[@class='-oneX-btn-primary__anchor']
+	
+	@FindBy(id = "landing-main-heading")
+	WebElement title;
+	
+	@FindBy(id = "tag-faq")
+	WebElement question;
+	
+
 	
 	public void clickClaim() {
 		click(claims);
 	}
-	public void clickRoadside() {
-		click(rodesideA);
+	public void clickRoadsideA() {
+		//waitUntilClickable(rodesideA);
+		//click(rodesideA);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		//waitUntilClickable(addButton);
+		js.executeScript("arguments[0].click()", rodesideA);
 }
+	
 	public void clickAssistance() {
 		waitUntilClickable(assistance);
 		click(assistance);
 }
+	public void getTitlevalidation(String titlevalue) {
+		assertEquals(getInnerHTML(title), titlevalue);
+	}
+	public void clickQuestion() {
+		click(question);
+	}
 }
