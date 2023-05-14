@@ -1,5 +1,8 @@
 package common;
 
+import static common.CommonWaits.waitUntilClickable;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -23,6 +26,12 @@ public class CommonAction {
 		element.click();
 		Log.log(element + " Has been clicked");
 	}
+	/*
+	public static void jsclick(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click()", element);
+	}
+	*/
 
 	public static void insert(WebElement element, String text) {
 		element.sendKeys(text);
@@ -43,5 +52,6 @@ public class CommonAction {
 			Log.log(element + "<<< Not visible");
 			return false;
 		}
+	
 	}
 }
