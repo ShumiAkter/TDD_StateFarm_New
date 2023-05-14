@@ -12,6 +12,11 @@ import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import object.Insurance;
+import object.Investments;
+import object.LogIn;
+import object.Banking;
+import object.Claims;
+import object.GetAQuote;
 import object.HomePage;
 import object.PersonalPricePlan;
 import object.Vehicles;
@@ -28,6 +33,11 @@ public class TestBase {
 	protected PersonalPricePlan personalPricePlan;
 	protected Vehicles vehicles;
 	protected Insurance insurance;
+	protected Banking branking;
+	protected Investments investments;
+	protected GetAQuote getAQuote;
+	protected Claims claims;
+	protected LogIn logIn;
 	
 	
 	
@@ -82,6 +92,11 @@ public class TestBase {
 		personalPricePlan = new PersonalPricePlan(driver);
 		vehicles = new Vehicles(driver);
 		insurance = new Insurance(driver);
+		branking = new Banking(driver);
+		investments = new Investments(driver);
+		getAQuote = new GetAQuote(driver);
+		claims = new Claims(driver);
+		logIn = new LogIn(driver);
 		
 	}
 

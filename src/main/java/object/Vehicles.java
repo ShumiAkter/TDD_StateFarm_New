@@ -1,19 +1,15 @@
 package object;
 
-import static common.CommonAction.click;
-import static common.CommonAction.dropdown;
-import static common.CommonAction.getInnerHTML;
-import static common.CommonAction.getText;
-import static common.CommonWaits.init;
-import static common.CommonWaits.waitUntilClickable;
-import static common.CommonWaits.waitUntilVisible;
-import static org.testng.Assert.assertEquals;
+
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import static common.CommonWaits.*;
+import static common.CommonAction.*;
 
 public class Vehicles {
 
@@ -41,7 +37,7 @@ public class Vehicles {
 	@FindBy(xpath = "//select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']")
 	WebElement year;
 
-	@FindBy(xpath = "//*[text()='Please provide make, model and body style, or Vehicle Identification Number (VIN).']")
+	@FindBy(xpath = "//span[contains(text(),'Please provide make,')]")
 	WebElement vinTitl;
 
 	@FindBy(xpath = "//select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']")
@@ -57,12 +53,12 @@ public class Vehicles {
 	WebElement addButton;
 
 	public void validationvehiclestitle(String expected) {
-		assertEquals(getInnerHTML(vehiclestitle), expected);
+	Assert.	assertEquals(getInnerHTML(vehiclestitle), expected);
 	}
 
 	public void validationTitle(String expected) {
 		waitUntilVisible(title);
-		assertEquals(getText(title), expected);
+		Assert. assertEquals(getText(title), expected);
 	}
 
 	public void clickaddAVehicleBtn() {
@@ -81,7 +77,7 @@ public class Vehicles {
 
 	public void validationVinTitle(String expected) {
 		waitUntilVisible(vinTitl);
-		assertEquals(getInnerHTML(vinTitl), expected);
+		Assert. assertEquals(getInnerHTML(vinTitl), expected);
 
 	}
 
