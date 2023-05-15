@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 05:30:18 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20162 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AllTest.ParameterizedTest.getAutoTest()'><b>getAutoTest</b><br>Test class: AllTest.ParameterizedTest<br>Parameters: Create an affordable price, just for you, 19082, Shumi,  R, Akter, Jr, 7120 sellers Ave, 2nd, 10201978<br/>
+<a href="#Output-650679651" onClick='toggleBox("Output-650679651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-650679651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-650679651">
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> name: productName] Has been clicked<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: quote-main-zip-btn] Has been clicked<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: first_name]<<< value inserted: Shumi<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: middle_name]<<< value inserted:  R<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: last_name]<<< value inserted: Akter<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: suffix_name]<<<< Select : Jr<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: street1]<<< value inserted: 7120 sellers Ave<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: street2]<<< value inserted: 2nd<b><br/>
+[[ChromeDriver: chrome on MAC (4374ff11a48b7fd0abc1b9a2484b89f3)] -> id: date_of_birth]<<< value inserted: 10201978<b><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>AllTest.ParameterizedTest@d9345cd</td></tr>
+</table><p>
+</body>
+</html>

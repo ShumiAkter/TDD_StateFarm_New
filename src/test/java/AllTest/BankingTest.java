@@ -1,7 +1,6 @@
 package AllTest;
 
 import org.testng.annotations.Test;
-
 import base.TestBase;
 
 public class BankingTest extends TestBase {
@@ -13,5 +12,6 @@ public class BankingTest extends TestBase {
 		branking.clickUSBank(driver);
 		branking.clickContinueAsAGuest();
 
+		
 	}
 }

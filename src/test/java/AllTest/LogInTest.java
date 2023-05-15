@@ -1,6 +1,5 @@
 package AllTest;
 import org.testng.annotations.Test;
-
 import base.TestBase;
 
 public class LogInTest extends TestBase{
@@ -10,10 +9,11 @@ public class LogInTest extends TestBase{
 	public void logInTest() {
 		logIn.clickLogInbt();
 		logIn.clickCreatAccount();
-	//	logIn.validationtitle("Good night!"); //it chnage base on the time. example Good eveing, Good morning, Good night 
+	//	logIn.validationtitle("Good night!"); //it chnage base on the time. example Good morning!, Good afternoon!, Good eveing,  Good night 
 		logIn.insertPhoneNumber("1234567788");
 		logIn.insertBirthday("10202000");
 		logIn.insertEmailAddress("ShumiA1235@gmail.com");
 		logIn. clickContinue();
 	}
+	
 }

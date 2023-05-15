@@ -2,48 +2,55 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (fd493a1d6ea05ccd2f1017975662fb9c)] -> xpath: //span[text()='Banking']] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (b87530a3c8de00486260d27b57882c5f)] -> xpath: //span[text()='Banking']] Has been clicked<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (fd493a1d6ea05ccd2f1017975662fb9c)] -> xpath: //a[text()='Checking']] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (b87530a3c8de00486260d27b57882c5f)] -> xpath: //a[text()='Checking']] Has been clicked<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (fd493a1d6ea05ccd2f1017975662fb9c)] -> css selector: .-oneX-typography-variant4.-w_mb-16.-w_mb-xl-24.-w_pr-xl-30] <<<Inner Text : Get set today with an easy to use checking account<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (b87530a3c8de00486260d27b57882c5f)] -> css selector: .-oneX-typography-variant4.-w_mb-16.-w_mb-xl-24.-w_pr-xl-30] <<<Inner Text : Get set today with an easy to use checking account<b>]]>
     </line>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@id='submit'])[1]' Has been clicked<b>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-14T14:59:51 EDT" name="Default suite" finished-at="2023-05-14T15:00:45 EDT" duration-ms="53701">
+  <suite started-at="2023-05-15T12:02:38 EDT" name="Suite" finished-at="2023-05-15T12:03:25 EDT" duration-ms="47158">
     <groups>
     </groups>
-    <test started-at="2023-05-14T14:59:51 EDT" name="Default test" finished-at="2023-05-14T15:00:45 EDT" duration-ms="53701">
+    <test started-at="2023-05-15T12:02:38 EDT" name="Test" finished-at="2023-05-15T12:03:25 EDT" duration-ms="47158">
       <class name="AllTest.BankingTest">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-14T14:59:52 EDT" name="beforeEachTest" finished-at="2023-05-14T15:00:05 EDT" duration-ms="13779" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:AllTest.BankingTest@4b0d79fc]" started-at="2023-05-15T12:02:38 EDT" name="beforeEachTest" finished-at="2023-05-15T12:02:48 EDT" duration-ms="10234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[optionala]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="bankingTest()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-14T15:00:05 EDT" name="bankingTest" finished-at="2023-05-14T15:00:45 EDT" duration-ms="39242" status="PASS">
+        <test-method signature="bankingTest()[pri:0, instance:AllTest.BankingTest@4b0d79fc]" started-at="2023-05-15T12:02:48 EDT" name="bankingTest" finished-at="2023-05-15T12:03:25 EDT" duration-ms="36518" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (fd493a1d6ea05ccd2f1017975662fb9c)] -> xpath: //span[text()='Banking']] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (b87530a3c8de00486260d27b57882c5f)] -> xpath: //span[text()='Banking']] Has been clicked<b>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (fd493a1d6ea05ccd2f1017975662fb9c)] -> xpath: //a[text()='Checking']] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (b87530a3c8de00486260d27b57882c5f)] -> xpath: //a[text()='Checking']] Has been clicked<b>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (fd493a1d6ea05ccd2f1017975662fb9c)] -> css selector: .-oneX-typography-variant4.-w_mb-16.-w_mb-xl-24.-w_pr-xl-30] <<<Inner Text : Get set today with an easy to use checking account<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (b87530a3c8de00486260d27b57882c5f)] -> css selector: .-oneX-typography-variant4.-w_mb-16.-w_mb-xl-24.-w_pr-xl-30] <<<Inner Text : Get set today with an easy to use checking account<b>]]>
             </line>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@id='submit'])[1]' Has been clicked<b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- bankingTest -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:AllTest.BankingTest@1151e434]" started-at="2023-05-14T15:00:45 EDT" name="closingBrower" finished-at="2023-05-14T15:00:45 EDT" duration-ms="549" status="PASS">
+        <test-method is-config="true" signature="closingBrower()[pri:0, instance:AllTest.BankingTest@4b0d79fc]" started-at="2023-05-15T12:03:25 EDT" name="closingBrower" finished-at="2023-05-15T12:03:25 EDT" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrower -->
       </class> <!-- AllTest.BankingTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

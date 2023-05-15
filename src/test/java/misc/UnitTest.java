@@ -2,6 +2,7 @@ package misc;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+
 import utils.Configuration;
 
 public class UnitTest {

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name = "browser" value = "chrome"/>
+	<test thread-count="5" name="Test1">	
+		<parameter name="title"					 value="Create an affordable price, just for you" />
+		<parameter name="zipcode"			 value="19082" />
+		<parameter name="firstName"		 value="Shumi" />
+		<parameter name="middleName"	 value=" R" />
+		<parameter name="lastName"		 value="Akter" />
+		<parameter name="suffix" 				value="Jr" />
+		<parameter name="address" 			value="7120 sellers Ave" />
+		<parameter name="apartment"		 value="2nd" />
+		<parameter name="dateOfBirth" 	value="10201978" />
+		<classes>
+			<class name="AllTest.ParameterizedTest" />
+		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

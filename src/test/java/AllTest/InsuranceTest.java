@@ -1,7 +1,6 @@
 package AllTest;
 
 import org.testng.annotations.Test;
-
 import base.TestBase;
 
 public class InsuranceTest extends TestBase {

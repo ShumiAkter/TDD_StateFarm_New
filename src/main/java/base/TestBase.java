@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import object.Insurance;
@@ -38,14 +40,13 @@ public class TestBase {
 	protected GetAQuote getAQuote;
 	protected Claims claims;
 	protected LogIn logIn;
-	
-	
-	
 	Configuration configuration = new Configuration();
+	
 
+	@Parameters("browser")
 	@BeforeMethod
-	public void beforeEachTest() {
-		String browserName = configuration.getProp(getValue(Key_Constant.browser));
+	public void beforeEachTest(@Optional("optionala") String browserName) {
+		//String browserName = configuration.getProp(getValue(Key_Constant.browser));
 		initiatDriver(browserName);
 		initObject();
 		driver.manage().window().maximize();
@@ -87,6 +88,7 @@ public class TestBase {
 
 	}
 
+	
 	protected void initObject() {
 		homePage = new HomePage(driver);
 		personalPricePlan = new PersonalPricePlan(driver);
