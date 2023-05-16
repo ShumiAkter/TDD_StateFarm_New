@@ -50,17 +50,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>parallel.xml</span>
+                    <span>regression_suite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>3 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,24 +103,10 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="allTest.AutoTest" class="method navigator-link" hash-for-method="getA_Quote">getA_Quote</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="allTest.FailedTest" class="method navigator-link" hash-for-method="getA_Quote">getA_Quote</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="allTest.AutoTest" class="method navigator-link" hash-for-method="getA_Quote">getA_Quote</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -135,7 +121,7 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">allTest.AutoTest</span>
+              <span class="class-name">allTest.FailedTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -143,76 +129,30 @@
                   <a name="getA_Quote">
                   </a> <!-- getA_Quote -->
                   <span class="method-name">getA_Quote</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button id=&quot;btnContinue&quot; class=&quot;-oneX-btn-large -oneX-btn-primary&quot; name=&quot;nextVehicles&quot; type=&quot;submit&quot;&gt; is not clickable at point (452,711) because another element &lt;p id=&quot;optpara&quot;&gt; obscures it
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.3&apos;, java.version: &apos;17.0.4&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2a0900f5-fc05-46a8-82c6-9640653d0555, clickElement {id=8e1d1d24-1572-48ad-bd50-3712b42363a8}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:36303, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 25413, moz:profile: /var/folders/qk/bzgkrfp95tq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:36303/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -&gt; id: btnContinue]
-Session ID: 2a0900f5-fc05-46a8-82c6-9640653d0555
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-	at common.CommonAction.click(CommonAction.java:26)
-	at object.PersonalPricePlan.clickContinueButon(PersonalPricePlan.java:92)
-	at allTest.AutoTest.getA_Quote(AutoTest.java:23)
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at allTest.FailedTest.getA_Quote(FailedTest.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 26 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">allTest.AutoTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getA_Quote">
-                  </a> <!-- getA_Quote -->
-                  <span class="method-name">getA_Quote</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/shumiakter/git/TDD_StateFarm_New/parallel.xml</span>
+            <span class="header-content">/Users/shumiakter/git/TDD_StateFarm_New/regression_suite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;allTest.AutoTest&quot;/&gt;
+      &lt;class name=&quot;allTest.FailedTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;FirefoxTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;allTest.AutoTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,9 +166,6 @@ Session ID: 2a0900f5-fc05-46a8-82c6-9640653d0555
               <li>
                 <span class="test-name">ChromeTest (1 class)</span>
               </li>
-              <li>
-                <span class="test-name">FirefoxTest (1 class)</span>
-              </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -237,30 +174,6 @@ Session ID: 2a0900f5-fc05-46a8-82c6-9640653d0555
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">auto</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getA_Quote</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">regression</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getA_Quote</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">smoke</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getA_Quote</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -277,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getA_Quote')
-data.setCell(0, 2, 'allTest.AutoTest')
-data.setCell(0, 3, 28353);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getA_Quote')
-data.setCell(1, 2, 'allTest.AutoTest')
-data.setCell(1, 3, 14394);
+data.setCell(0, 2, 'allTest.FailedTest')
+data.setCell(0, 3, 10049);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -304,44 +213,18 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">getA_Quote</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> name: productName] Has been clicked<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: quote-main-zip-btn] Has been clicked<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: first_name]<<< value inserted: Shumi<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: middle_name]<<< value inserted: R<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: last_name]<<< value inserted: Akter<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: suffix_name]<<<< Select : Jr<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: street1]<<< value inserted: 7120 sellers Ave<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: street2]<<< value inserted: 2nd<b></span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: date_of_birth]<<< value inserted: 10201978<b></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">getA_Quote</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> name: productName] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-btn] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: first_name]<<< value inserted: Shumi<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: middle_name]<<< value inserted: R<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: last_name]<<< value inserted: Akter<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: suffix_name]<<<< Select : Jr<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street1]<<< value inserted: 7120 sellers Ave<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street2]<<< value inserted: 2nd<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: date_of_birth]<<< value inserted: 10201978<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: btnContinue] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: addVehicleButton] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //span[contains(text(),'Please provide make,')]] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> name: productName] Has been clicked<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-btn] Has been clicked<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: first_name]<<< value inserted: Shumi<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: middle_name]<<< value inserted: R<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: last_name]<<< value inserted: Akter<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: suffix_name]<<<< Select : Jr<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street1]<<< value inserted: 7120 sellers Ave<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street2]<<< value inserted: 2nd<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: date_of_birth]<<< value inserted: 10201978<b></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -359,56 +242,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">allTest.AutoTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">allTest.FailedTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initiateReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">createTest(public void allTest.AutoTest.getA_Quote() throws java.lang.InterruptedException)</span>
-                <span class="method-start">677 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">createTest(public void allTest.AutoTest.getA_Quote() throws java.lang.InterruptedException)</span>
-                <span class="method-start">677 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(firefox)</span>
-                <span class="method-start">696 ms</span>
+                <span class="method-name">createTest(public void allTest.FailedTest.getA_Quote() throws java.lang.InterruptedException)</span>
+                <span class="method-start">648 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeEachTest(chrome)</span>
-                <span class="method-start">698 ms</span>
+                <span class="method-start">663 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getA_Quote</span>
-                <span class="method-start">14790 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getA_Quote</span>
-                <span class="method-start">15818 ms</span>
+                <span class="method-start">10555 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">aftereEachTest([TestResult name=getA_Quote status=FAILURE method=AutoTest.getA_Quote()[pri:0, instance:allTest.Auto...)</span>
-                <span class="method-start">29195 ms</span>
+                <span class="method-name">aftereEachTest([TestResult name=getA_Quote status=FAILURE method=FailedTest.getA_Quote()[pri:0, instance:allTest.Fa...)</span>
+                <span class="method-start">20612 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">closingBrower</span>
-                <span class="method-start">29467 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">aftereEachTest([TestResult name=getA_Quote status=SUCCESS method=AutoTest.getA_Quote()[pri:0, instance:allTest.Auto...)</span>
-                <span class="method-start">44172 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrower</span>
-                <span class="method-start">44174 ms</span>
+                <span class="method-start">20802 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">closeReport</span>
-                <span class="method-start">44607 ms</span>
+                <span class="method-start">21340 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

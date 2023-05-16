@@ -13,7 +13,7 @@ public class ExtentReportManager {
 			report = new ExtentReports();
 
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter("target/ExtentReport.html");
-		sparkReporter.config().setReportName("Automation Regression - The General");
+		sparkReporter.config().setReportName("Automation Regression - StateFarm");
 		sparkReporter.config().setDocumentTitle("Regression Tests");
 		sparkReporter.config().setTheme(Theme.STANDARD);
 		report.attachReporter(sparkReporter);

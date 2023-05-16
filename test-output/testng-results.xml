@@ -1,196 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> name: productName] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> name: productName] Has been clicked<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> name: productName] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: first_name]<<< value inserted: Shumi<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: middle_name]<<< value inserted: R<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: last_name]<<< value inserted: Akter<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: suffix_name]<<<< Select : Jr<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: first_name]<<< value inserted: Shumi<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: middle_name]<<< value inserted: R<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street2]<<< value inserted: 2nd<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: last_name]<<< value inserted: Akter<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: suffix_name]<<<< Select : Jr<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: street2]<<< value inserted: 2nd<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
-    </line>
-    <line>
-      <![CDATA[Captured Screenshot at : /Users/shumiakter/git/TDD_StateFarm_New/screenShot/error_getA_Quote2023-05-16T20:56:38.693306Z.png<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: first_name]<<< value inserted: Shumi<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: middle_name]<<< value inserted: R<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: last_name]<<< value inserted: Akter<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: suffix_name]<<<< Select : Jr<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street2]<<< value inserted: 2nd<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: btnContinue] Has been clicked<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: addVehicleButton] Has been clicked<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //span[contains(text(),'Please provide make,')]] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b>]]>
+      <![CDATA[Captured Screenshot at : /Users/shumiakter/git/TDD_StateFarm_New/screenShot/error_getA_Quote2023-05-16T22:07:35.755218Z.png<b>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-16T16:56:10 EDT" name="Suite" finished-at="2023-05-16T16:56:54 EDT" duration-ms="43987">
+  <suite started-at="2023-05-16T18:07:15 EDT" name="Suite" finished-at="2023-05-16T18:07:36 EDT" duration-ms="20642">
     <groups>
-      <group name="auto">
-        <method signature="AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@4145bad8]" name="getA_Quote" class="allTest.AutoTest"/>
-        <method signature="AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@d737b89]" name="getA_Quote" class="allTest.AutoTest"/>
-      </group> <!-- auto -->
-      <group name="regression">
-        <method signature="AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@4145bad8]" name="getA_Quote" class="allTest.AutoTest"/>
-        <method signature="AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@d737b89]" name="getA_Quote" class="allTest.AutoTest"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@4145bad8]" name="getA_Quote" class="allTest.AutoTest"/>
-        <method signature="AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@d737b89]" name="getA_Quote" class="allTest.AutoTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-05-16T16:56:10 EDT" name="FirefoxTest" finished-at="2023-05-16T16:56:42 EDT" duration-ms="32319">
-      <class name="allTest.AutoTest">
-        <test-method is-config="true" signature="initiateReport()[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:09 EDT" name="initiateReport" finished-at="2023-05-16T16:56:10 EDT" duration-ms="596" status="PASS">
+    <test started-at="2023-05-16T18:07:15 EDT" name="ChromeTest" finished-at="2023-05-16T18:07:36 EDT" duration-ms="20642">
+      <class name="allTest.FailedTest">
+        <test-method is-config="true" signature="initiateReport()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:15 EDT" name="initiateReport" finished-at="2023-05-16T18:07:15 EDT" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateReport -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:10 EDT" name="createTest" finished-at="2023-05-16T16:56:10 EDT" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:15 EDT" name="createTest" finished-at="2023-05-16T18:07:15 EDT" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void allTest.AutoTest.getA_Quote() throws java.lang.InterruptedException]]>
+                <![CDATA[public void allTest.FailedTest.getA_Quote() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:10 EDT" name="beforeEachTest" finished-at="2023-05-16T16:56:24 EDT" duration-ms="14094" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:15 EDT" name="beforeEachTest" finished-at="2023-05-16T18:07:25 EDT" duration-ms="9892" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="getA_Quote()[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:24 EDT" name="getA_Quote" finished-at="2023-05-16T16:56:38 EDT" duration-ms="14394" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="getA_Quote()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:25 EDT" name="getA_Quote" finished-at="2023-05-16T18:07:35 EDT" duration-ms="10049" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <button id="btnContinue" class="-oneX-btn-large -oneX-btn-primary" name="nextVehicles" type="submit"> is not clickable at point (452,711) because another element <p id="optpara"> obscures it
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2a0900f5-fc05-46a8-82c6-9640653d0555, clickElement {id=8e1d1d24-1572-48ad-bd50-3712b42363a8}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:36303, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 25413, moz:profile: /var/folders/qk/bzgkrfp95tq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:36303/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: btnContinue]
-Session ID: 2a0900f5-fc05-46a8-82c6-9640653d0555]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button id="btnContinue" class="-oneX-btn-large -oneX-btn-primary" name="nextVehicles" type="submit"> is not clickable at point (452,711) because another element <p id="optpara"> obscures it
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2a0900f5-fc05-46a8-82c6-9640653d0555, clickElement {id=8e1d1d24-1572-48ad-bd50-3712b42363a8}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:36303, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 25413, moz:profile: /var/folders/qk/bzgkrfp95tq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:36303/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: btnContinue]
-Session ID: 2a0900f5-fc05-46a8-82c6-9640653d0555
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-at common.CommonAction.click(CommonAction.java:26)
-at object.PersonalPricePlan.clickContinueButon(PersonalPricePlan.java:92)
-at allTest.AutoTest.getA_Quote(AutoTest.java:23)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at allTest.FailedTest.getA_Quote(FailedTest.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -207,195 +98,88 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> name: productName] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> name: productName] Has been clicked<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: first_name]<<< value inserted: Shumi<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: first_name]<<< value inserted: Shumi<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: middle_name]<<< value inserted: R<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: middle_name]<<< value inserted: R<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: last_name]<<< value inserted: Akter<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: last_name]<<< value inserted: Akter<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: suffix_name]<<<< Select : Jr<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: suffix_name]<<<< Select : Jr<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: street2]<<< value inserted: 2nd<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street2]<<< value inserted: 2nd<b>]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- getA_Quote -->
-        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:38 EDT" name="aftereEachTest" finished-at="2023-05-16T16:56:38 EDT" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:35 EDT" name="aftereEachTest" finished-at="2023-05-16T18:07:35 EDT" duration-ms="190" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getA_Quote status=FAILURE method=AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@d737b89] output=[[FirefoxDriver: firefox on MAC (2a0900f5-fc05-46a8-82c6-9640653d0555)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]]>
+                <![CDATA[[TestResult name=getA_Quote status=FAILURE method=FailedTest.getA_Quote()[pri:0, instance:allTest.FailedTest@738dc9b] output=[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void allTest.AutoTest.getA_Quote() throws java.lang.InterruptedException]]>
+                <![CDATA[public void allTest.FailedTest.getA_Quote() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Captured Screenshot at : /Users/shumiakter/git/TDD_StateFarm_New/screenShot/error_getA_Quote2023-05-16T20:56:38.693306Z.png<b>]]>
+              <![CDATA[Captured Screenshot at : /Users/shumiakter/git/TDD_StateFarm_New/screenShot/error_getA_Quote2023-05-16T22:07:35.755218Z.png<b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- aftereEachTest -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:38 EDT" name="closingBrower" finished-at="2023-05-16T16:56:42 EDT" duration-ms="3446" status="PASS">
+        <test-method is-config="true" signature="closingBrower()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:35 EDT" name="closingBrower" finished-at="2023-05-16T18:07:36 EDT" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrower -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:allTest.AutoTest@d737b89]" started-at="2023-05-16T16:56:54 EDT" name="closeReport" finished-at="2023-05-16T16:56:54 EDT" duration-ms="619" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:36 EDT" name="closeReport" finished-at="2023-05-16T18:07:37 EDT" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-      </class> <!-- allTest.AutoTest -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2023-05-16T16:56:10 EDT" name="ChromeTest" finished-at="2023-05-16T16:56:54 EDT" duration-ms="43987">
-      <class name="allTest.AutoTest">
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:allTest.AutoTest@4145bad8]" started-at="2023-05-16T16:56:10 EDT" name="createTest" finished-at="2023-05-16T16:56:10 EDT" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void allTest.AutoTest.getA_Quote() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:allTest.AutoTest@4145bad8]" started-at="2023-05-16T16:56:10 EDT" name="beforeEachTest" finished-at="2023-05-16T16:56:25 EDT" duration-ms="15120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method signature="getA_Quote()[pri:0, instance:allTest.AutoTest@4145bad8]" started-at="2023-05-16T16:56:25 EDT" name="getA_Quote" finished-at="2023-05-16T16:56:53 EDT" duration-ms="28353" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> name: productName] Has been clicked<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: first_name]<<< value inserted: Shumi<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: middle_name]<<< value inserted: R<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: last_name]<<< value inserted: Akter<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: suffix_name]<<<< Select : Jr<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street2]<<< value inserted: 2nd<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: btnContinue] Has been clicked<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: addVehicleButton] Has been clicked<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //span[contains(text(),'Please provide make,')]] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- getA_Quote -->
-        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:allTest.AutoTest@4145bad8]" started-at="2023-05-16T16:56:53 EDT" name="aftereEachTest" finished-at="2023-05-16T16:56:53 EDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=getA_Quote status=SUCCESS method=AutoTest.getA_Quote()[pri:0, instance:allTest.AutoTest@4145bad8] output=[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void allTest.AutoTest.getA_Quote() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereEachTest -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:allTest.AutoTest@4145bad8]" started-at="2023-05-16T16:56:53 EDT" name="closingBrower" finished-at="2023-05-16T16:56:54 EDT" duration-ms="418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrower -->
-      </class> <!-- allTest.AutoTest -->
+      </class> <!-- allTest.FailedTest -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
