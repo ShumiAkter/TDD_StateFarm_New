@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="AllTest.AutoTest">
-        <methods>
-          <include name="closingBrower"/>
-          <include name="getA_Quote"/>
-          <include name="beforeEachTest"/>
-        </methods>
-      </class> <!-- AllTest.AutoTest -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
   <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="AllTest.AutoTest">
+      <class name="allTest.AutoTest">
         <methods>
-          <include name="closingBrower"/>
+          <include name="aftereEachTest"/>
+          <include name="createTest"/>
+          <include name="initiateReport"/>
           <include name="getA_Quote"/>
+          <include name="closingBrower"/>
           <include name="beforeEachTest"/>
+          <include name="closeReport"/>
         </methods>
-      </class> <!-- AllTest.AutoTest -->
+      </class> <!-- allTest.AutoTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,4 +1,4 @@
-package AllTest;
+package allTest;
 
 import org.testng.annotations.Test;
 import base.TestBase;
@@ -11,7 +11,6 @@ public class BankingTest extends TestBase {
 		branking.validitionTitle("Get set today with an easy to use checking account");
 		branking.clickUSBank(driver);
 		branking.clickContinueAsAGuest();
-
 		
 	}
 }

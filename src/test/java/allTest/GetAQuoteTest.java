@@ -1,4 +1,4 @@
-package AllTest;
+package allTest;
 
 import org.testng.annotations.Test;
 import base.TestBase;

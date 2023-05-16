@@ -4,25 +4,25 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-				<class name="AllTest.AutoTest" />
+				<class name="allTest.AutoTest" />
 		</classes>
 	</test> <!-- Test -->
 	<test thread-count="5" name="EdgeTest">
 		<parameter name="browser" value="edge"></parameter>
 		<classes>
-			<class name="AllTest.AutoTest" />
+			<class name="allTest.AutoTest" />
 		</classes>
 	</test>
 	<test thread-count="5" name="FireFoxTest">
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
-				<class name="AllTest.AutoTest" />
+				<class name="allTest.AutoTest" />
 		</classes>
 	</test>
 	<test thread-count="5" name="SafariTest">
 		<parameter name="browser" value="safari"></parameter>
 		<classes>
-			<class name="AllTest.AutoTest" />
+			<class name="allTest.AutoTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 15 11:19:04 EDT 2023</td>
+<td>Started on:</td><td>Tue May 16 16:56:10 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19268 ms)</td>
+<tr><td>Total time:</td><td>43 seconds (43987 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,68 +76,37 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AllTest.AutoTest.getA_Quote()'><b>getA_Quote</b><br>Test class: AllTest.AutoTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[text()=&apos;Create an affordable price, just for you&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.3&apos;, java.version: &apos;17.0.4&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.getAttribute(Unknown Source)
-	at common.CommonAction.getInnerHTML(CommonAction.java:20)
-	at object.HomePage.getTitlevalidation(HomePage.java:31)
-	at AllTest.AutoTest.getA_Quote(AutoTest.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace861254891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace861254891'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[text()=&apos;Create an affordable price, just for you&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.3&apos;, java.version: &apos;17.0.4&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.getAttribute(Unknown Source)
-	at common.CommonAction.getInnerHTML(CommonAction.java:20)
-	at object.HomePage.getTitlevalidation(HomePage.java:31)
-	at AllTest.AutoTest.getA_Quote(AutoTest.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>1</td>
-<td>AllTest.AutoTest@2d710f1a</td></tr>
+<td title='allTest.AutoTest.getA_Quote()'><b>getA_Quote</b><br>Test class: allTest.AutoTest<br/>
+<a href="#Output-28513737" onClick='toggleBox("Output-28513737", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28513737" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28513737">
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> name: productName] Has been clicked<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: quote-main-zip-btn] Has been clicked<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: first_name]<<< value inserted: Shumi<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: middle_name]<<< value inserted: R<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: last_name]<<< value inserted: Akter<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: suffix_name]<<<< Select : Jr<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street1]<<< value inserted: 7120 sellers Ave<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: street2]<<< value inserted: 2nd<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: date_of_birth]<<< value inserted: 10201978<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: btnContinue] Has been clicked<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //h1[text()='Vehicles']] <<<Inner Text : Vehicles<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: h3Title] <<< Inner Text : Add up to 4 vehicles<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> id: addVehicleButton] Has been clicked<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.year_input']]<<<< Select : 2020<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //span[contains(text(),'Please provide make,')]] <<<Inner Text : Please provide make, model and body style, or Vehicle Identification Number (VIN).<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.make_input']]<<<< Select : BMW<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.model_input']]<<<< Select : M2<b><br/>
+[[ChromeDriver: chrome on MAC (47d38e4bd94b2882cc1008a01c4993dc)] -> xpath: //select[@id='sfx_vehicles[0].motorVehicle.ymmb.bodyStyle_input']]<<<< Select : COMPETITION 2D CPE GAS<b><br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>allTest.AutoTest@4145bad8</td></tr>
 </table><p>
 </body>
 </html>

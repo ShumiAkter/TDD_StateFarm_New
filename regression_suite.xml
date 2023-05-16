@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+ <test thread-count="5" name="ChromeTest">
     <classes>  
-      <class name="AllTest.BankingTest"/>  
+      <!--class name="allTest.AutoTest"/-->  
+      <!--class name="allTest.BankingTest"/-->  
+      <!--class name="allTest.ClaimsTest"/-->  
+      <!--class name="allTest.GetAQuoteTest"/-->  
+      <!--class name="allTest.InsuranceTest"/-->  
+      <!--class name="allTest.InvestmentsTest"/-->  
+      <!--class name="allTest.LogInTest"/-->  
+      <class name ="allTest.FailedTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

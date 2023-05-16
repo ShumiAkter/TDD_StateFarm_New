@@ -1,12 +1,11 @@
-package AllTest;
+package allTest;
 
-import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import base.TestBase;
 
 public class AutoTest extends TestBase {
-
-	@Test
+	
+	@Test(groups = {"auto", "regression", "smoke"})
 	public void getA_Quote() throws InterruptedException {
 		homePage.getTitlevalidation("Create an affordable price, just for you");
 		homePage.productClick();
@@ -33,8 +32,6 @@ public class AutoTest extends TestBase {
 		vehicles.clickAddButton(driver);
 	
 		System.out.println("................. Auto Test Complete........................");
-
-
 
 	}
 
