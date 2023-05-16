@@ -4,13 +4,15 @@
 	<test thread-count="5" name="ChromeTest">
 			<parameter name="browser" value="chrome"></parameter>
 		<classes>
-				<class name="AllTest.AutoTest" />
+				<class name="allTest.AutoTest" />
+				<!--class name="allTest.FailedTest" /-->
 		</classes>
 	</test> <!-- Test -->
 	<test thread-count="5" name="FirefoxTest">
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
-			<class name="AllTest.AutoTest" />
+			<class name="allTest.AutoTest" />
+			<!--class name="allTest.FailedTest" /-->
 			
 		</classes>
 	</test> <!-- Test -->

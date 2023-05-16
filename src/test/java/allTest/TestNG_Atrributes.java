@@ -1,12 +1,15 @@
-package AllTest;
+package allTest;
 
 import org.testng.annotations.Test;
+
+import base.TestBase;
+
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import reporting.Log;
 import retry.Retry;
 
-public class TestNG_Atrributes {
+public class TestNG_Atrributes extends TestBase{
 
 	@Test(groups = {"testng", "unit1"})
 	public void test1() {

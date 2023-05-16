@@ -8,7 +8,7 @@
 		<parameter name="dateOfBirth"		 value="10202000" />
 		<parameter name="email" 					value=" ShumiA1235@gmail.com" />
 		<classes>
-			<class name="AllTest.LogInTest" />
+			<class name="allTest.LogInTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
