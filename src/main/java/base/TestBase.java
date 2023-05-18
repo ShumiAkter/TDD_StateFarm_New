@@ -19,6 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import object.Insurance;
 import object.Investments;
 import object.LogIn;
+import object.PayBill;
 import object.Banking;
 import object.Claims;
 import object.GetAQuote;
@@ -44,6 +45,7 @@ public class TestBase  extends ExtentReportListner{
 	protected GetAQuote getAQuote;
 	protected Claims claims;
 	protected LogIn logIn;
+	protected PayBill payBill;
 	Configuration configuration = new Configuration();
 
 	@Parameters("browser")
@@ -97,6 +99,7 @@ public class TestBase  extends ExtentReportListner{
 		getAQuote = new GetAQuote(driver);
 		claims = new Claims(driver);
 		logIn = new LogIn(driver);
+		payBill = new PayBill(driver);
 
 	}
 	private String getStackTrace(Throwable t) {

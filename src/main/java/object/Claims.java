@@ -1,6 +1,5 @@
 package object;
 
-import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import static common.CommonWaits.*;
 import static common.CommonAction.*;
+import org.testng.Assert;
 
 public class Claims  {
 	
@@ -23,16 +23,12 @@ public class Claims  {
 	WebElement claims;
 	
 	
-	@FindBy(xpath = "//a[text()='Roadside Assistance']")
-	/*//a[text()='Roadside Assistance'] 
-	//((//*[@class='-oneX-link--block '])[3]*/
-	 
+	@FindBy(xpath = "//a[text()='Roadside Assistance']") 
 	WebElement rodesideA;
-	
-	
+		
 	@FindBy(xpath = "(//a[text()='Get Roadside Assistance'])[2]")
 	WebElement assistance;
-			//a[@class='-oneX-btn-primary__anchor']
+		
 	
 	@FindBy(id = "landing-main-heading")
 	WebElement title;
@@ -58,7 +54,7 @@ public class Claims  {
 		click(assistance);
 }
 	public void getTitlevalidation(String titlevalue) {
-		assertEquals(getInnerHTML(title), titlevalue);
+		Assert. assertEquals(getInnerHTML(title), titlevalue);
 	}
 	public void clickQuestion() {
 		click(question);

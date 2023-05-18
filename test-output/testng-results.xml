@@ -1,67 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> xpath: //span[text()='Pay a Bill']] Has been clicked<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> name: productName] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-paymentSelect]<<<< Select : Phone Number<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-phoneNo]<<< value inserted: 6462507944<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-DOB]<<< value inserted: 10202020<b>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: first_name]<<< value inserted: Shumi<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: middle_name]<<< value inserted: R<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: last_name]<<< value inserted: Akter<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: suffix_name]<<<< Select : Jr<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street2]<<< value inserted: 2nd<b>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
-    </line>
-    <line>
-      <![CDATA[Captured Screenshot at : /Users/shumiakter/git/TDD_StateFarm_New/screenShot/error_getA_Quote2023-05-16T22:07:35.755218Z.png<b>]]>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.id: pay-a-bill-submitButton' Has been clicked<b>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-16T18:07:15 EDT" name="Suite" finished-at="2023-05-16T18:07:36 EDT" duration-ms="20642">
+  <suite started-at="2023-05-18T00:20:44 EDT" name="Suite" finished-at="2023-05-18T00:21:21 EDT" duration-ms="37291">
     <groups>
     </groups>
-    <test started-at="2023-05-16T18:07:15 EDT" name="ChromeTest" finished-at="2023-05-16T18:07:36 EDT" duration-ms="20642">
-      <class name="allTest.FailedTest">
-        <test-method is-config="true" signature="initiateReport()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:15 EDT" name="initiateReport" finished-at="2023-05-16T18:07:15 EDT" duration-ms="598" status="PASS">
+    <test started-at="2023-05-18T00:20:44 EDT" name="ChromeTest" finished-at="2023-05-18T00:21:21 EDT" duration-ms="37291">
+      <class name="allTest.PayBillTest">
+        <test-method is-config="true" signature="initiateReport()[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:20:43 EDT" name="initiateReport" finished-at="2023-05-18T00:20:44 EDT" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateReport -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:15 EDT" name="createTest" finished-at="2023-05-16T18:07:15 EDT" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:20:44 EDT" name="createTest" finished-at="2023-05-18T00:20:44 EDT" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void allTest.FailedTest.getA_Quote() throws java.lang.InterruptedException]]>
+                <![CDATA[public void allTest.PayBillTest.getBillTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:15 EDT" name="beforeEachTest" finished-at="2023-05-16T18:07:25 EDT" duration-ms="9892" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:20:44 EDT" name="beforeEachTest" finished-at="2023-05-18T00:20:56 EDT" duration-ms="12238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,114 +48,50 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="getA_Quote()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:25 EDT" name="getA_Quote" finished-at="2023-05-16T18:07:35 EDT" duration-ms="10049" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at allTest.FailedTest.getA_Quote(FailedTest.java:23)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="getBillTest()[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:20:56 EDT" name="getBillTest" finished-at="2023-05-18T00:21:21 EDT" duration-ms="24624" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> xpath: //span[text()='Pay a Bill']] Has been clicked<b>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> name: productName] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-paymentSelect]<<<< Select : Phone Number<b>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-phoneNo]<<< value inserted: 6462507944<b>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-btn] Has been clicked<b>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-DOB]<<< value inserted: 10202020<b>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: first_name]<<< value inserted: Shumi<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: middle_name]<<< value inserted: R<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: last_name]<<< value inserted: Akter<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: suffix_name]<<<< Select : Jr<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street1]<<< value inserted: 7120 sellers Ave<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street2]<<< value inserted: 2nd<b>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: date_of_birth]<<< value inserted: 10201978<b>]]>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.id: pay-a-bill-submitButton' Has been clicked<b>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getA_Quote -->
-        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:35 EDT" name="aftereEachTest" finished-at="2023-05-16T18:07:35 EDT" duration-ms="190" status="PASS">
+        </test-method> <!-- getBillTest -->
+        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:21:21 EDT" name="aftereEachTest" finished-at="2023-05-18T00:21:21 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getA_Quote status=FAILURE method=FailedTest.getA_Quote()[pri:0, instance:allTest.FailedTest@738dc9b] output=[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b>]]]>
+                <![CDATA[[TestResult name=getBillTest status=SUCCESS method=PayBillTest.getBillTest()[pri:0, instance:allTest.PayBillTest@71ba6d4e] output=[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> xpath: //span[text()='Pay a Bill']] Has been clicked<b>]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void allTest.FailedTest.getA_Quote() throws java.lang.InterruptedException]]>
+                <![CDATA[public void allTest.PayBillTest.getBillTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Captured Screenshot at : /Users/shumiakter/git/TDD_StateFarm_New/screenShot/error_getA_Quote2023-05-16T22:07:35.755218Z.png<b>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- aftereEachTest -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:35 EDT" name="closingBrower" finished-at="2023-05-16T18:07:36 EDT" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="closingBrower()[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:21:21 EDT" name="closingBrower" finished-at="2023-05-18T00:21:21 EDT" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrower -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:allTest.FailedTest@738dc9b]" started-at="2023-05-16T18:07:36 EDT" name="closeReport" finished-at="2023-05-16T18:07:37 EDT" duration-ms="572" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:allTest.PayBillTest@71ba6d4e]" started-at="2023-05-18T00:21:21 EDT" name="closeReport" finished-at="2023-05-18T00:21:22 EDT" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-      </class> <!-- allTest.FailedTest -->
+      </class> <!-- allTest.PayBillTest -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

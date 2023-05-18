@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="allTest.FailedTest" class="method navigator-link" hash-for-method="getA_Quote">getA_Quote</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="allTest.PayBillTest" class="method navigator-link" hash-for-method="getBillTest">getBillTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,26 +118,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">allTest.FailedTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">allTest.PayBillTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getA_Quote">
-                  </a> <!-- getA_Quote -->
-                  <span class="method-name">getA_Quote</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at allTest.FailedTest.getA_Quote(FailedTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="getBillTest">
+                  </a> <!-- getBillTest -->
+                  <span class="method-name">getBillTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -150,7 +145,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;allTest.FailedTest&quot;/&gt;
+      &lt;class name=&quot;allTest.PayBillTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -192,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getA_Quote')
-data.setCell(0, 2, 'allTest.FailedTest')
-data.setCell(0, 3, 10049);
+data.setCell(0, 1, 'getBillTest')
+data.setCell(0, 2, 'allTest.PayBillTest')
+data.setCell(0, 3, 24624);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -211,20 +206,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">getA_Quote</span>
+              <span class="reporter-method-name">getBillTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //*[text()='Create an affordable price, just for you']] <<<Inner Text : Create an affordable price, just for you<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> name: productName] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-code-input]<<< value inserted: 19082<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: quote-main-zip-btn] Has been clicked<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> xpath: //h1[@class='-oneX-heading--h1 -oneX-font--bold margin0']] <<<Inner Text : Let's create your<br>Personal Price Plan<sup>TM</sup><b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: first_name]<<< value inserted: Shumi<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: middle_name]<<< value inserted: R<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: last_name]<<< value inserted: Akter<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: suffix_name]<<<< Select : Jr<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street1]<<< value inserted: 7120 sellers Ave<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: street2]<<< value inserted: 2nd<b></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (6e3b431f43492c3826532cafec1a84c1)] -> id: date_of_birth]<<< value inserted: 10201978<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> xpath: //span[text()='Pay a Bill']] Has been clicked<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-paymentSelect]<<<< Select : Phone Number<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-phoneNo]<<< value inserted: 6462507944<b></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on MAC (19aecae841a69048899d8a3025d35a00)] -> id: pay-a-bill-DOB]<<< value inserted: 10202020<b></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.id: pay-a-bill-submitButton' Has been clicked<b></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,36 +230,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">allTest.FailedTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">allTest.PayBillTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initiateReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">createTest(public void allTest.FailedTest.getA_Quote() throws java.lang.InterruptedException)</span>
-                <span class="method-start">648 ms</span>
+                <span class="method-name">createTest(public void allTest.PayBillTest.getBillTest())</span>
+                <span class="method-start">776 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeEachTest(chrome)</span>
-                <span class="method-start">663 ms</span>
+                <span class="method-start">797 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getA_Quote</span>
-                <span class="method-start">10555 ms</span>
+                <span class="method-name">getBillTest</span>
+                <span class="method-start">13035 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">aftereEachTest([TestResult name=getA_Quote status=FAILURE method=FailedTest.getA_Quote()[pri:0, instance:allTest.Fa...)</span>
-                <span class="method-start">20612 ms</span>
+                <span class="method-name">aftereEachTest([TestResult name=getBillTest status=SUCCESS method=PayBillTest.getBillTest()[pri:0, instance:allTest...)</span>
+                <span class="method-start">37666 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">closingBrower</span>
-                <span class="method-start">20802 ms</span>
+                <span class="method-start">37667 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">closeReport</span>
-                <span class="method-start">21340 ms</span>
+                <span class="method-start">38088 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AllTest.TestNG_Atrributes">
+      <class name="allTest.PayBillTest">
         <methods>
-          <include name="test5"/>
-          <include name="test2"/>
-          <include name="test3"/>
+          <include name="aftereEachTest"/>
+          <include name="createTest"/>
+          <include name="initiateReport"/>
+          <include name="getBillTest"/>
+          <include name="closingBrower"/>
+          <include name="beforeEachTest"/>
+          <include name="closeReport"/>
         </methods>
-      </class> <!-- AllTest.TestNG_Atrributes -->
+      </class> <!-- allTest.PayBillTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>tdd.cvs</groupId>
-	<artifactId>cvs.dd</artifactId>
+	<groupId>tdd.statefarm</groupId>
+	<artifactId>statefarm.dd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CVS_TDD</name>
-	<description>CVS TDD Framework</description>
+	<name>Statefarm_TDD</name>
+	<description>StateFarm TDD Framework</description>
 	<properties>
 		<seleniumVersion>4.8.3</seleniumVersion>
 		<testngVersion>7.7.1</testngVersion>
